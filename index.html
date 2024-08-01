@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Raleway", sans-serif;
+        }
+
+        #hero-section {
+            position: relative;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        #background-img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #header {
+            color: white;
+            padding-left: 100px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-shadow: 1px 1px 0px #000, 2px 2px 0px #000;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 96px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .header-text {
+            font-size: 24px;
+        }
+
+        .menu-header {
+            height: 112px;
+            font-size: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding: 20px 100px;
+            background: rgba(0, 0, 0, 0.5); /* Optional: adds a semi-transparent background */
+            color: white;
+        }
+
+        .menu-header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        .menu-header img {
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        .sakura-logo {
+            width: 64px;
+            height: 64px;
+        }
+
+        .phone-icon {
+            width: 24px;
+            height: 24px;
+        }
+
+        #phone-btn {
+            background-color: red;
+            padding: 7px;
+            border-radius: 8px;
+            border-style: solid;
+            border-width: 2px;
+            border-color: white;
+        }
+
+        .order-section {
+            padding: 50px 100px;
+            background-color: #f8f8f8;
+            text-align: center;
+        }
+
+        .order-section h2 {
+            color: #9f0908;
+            font-size: 80px;
+            padding-top: 120px;
+            padding-bottom: 64px;
+        }
+
+        .order-info {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .order-info div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 56px;
+            font-family: "Economica", sans-serif;
+            font-weight: 1000;
+            font-style: normal;
+        }
+
+        .order-info img {
+            width: 128px;
+            height: auto;
+            padding-bottom: 16px;
+        }
+
+        .our-menu {
+            padding-top: 120px;
+            background: rgb(255, 140, 0);
+        }
+
+        #menu {
+            color: #9f0908;
+            font-size: 80px;
+            padding-top: 120px;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="37ae6617-b7e1-4a25-acba-60922108dbf4"
+        data-blockingmode="auto" type="text/javascript"></script>
+</head>
+
+<body>
+    <section id="hero-section">
+        <img src="./img/1_hero/JPG/hero_bg.jpg" alt="background-image-food" id="background-img">
+
+        <div class="menu-header">
+            <div>
+                <img class="sakura-logo" src="./img/1_hero/PNG/sakura_logo.png" alt="sakura_logo">
+            </div>
+
+            <div class="menu">
+                <a href="#">MENU</a>
+                <a href="#">LOCATIONS</a>
+                <a href="#">ABOUT</a>
+                <a href="tel:017654564534" id="phone-btn">
+                    <img class="phone-icon" src="./img/1_hero/PNG/phone.png" alt="phone_icon">017654564534
+                </a>
+            </div>
+        </div>
+
+        <div id="header">
+            <h1>SAKURA RAMEN</h1>
+            <div class="header-text">THE BEST RAMEN IN TOWN</div>
+        </div>
+    </section>
+
+    <section class="order-section">
+        <h2>HOW TO ORDER</h2>
+        <div class="order-info">
+            <div>
+                <img src="./img/2_section_how_to_order/PNG/noodle.png" alt="noodle">
+                Pick your <br> noodle
+            </div>
+
+            <div>
+                <img src="./img/2_section_how_to_order/PNG/broth.png" alt="broth">
+                Pick your <br> broth
+            </div>
+
+            <div>
+                <img src="./img/2_section_how_to_order/PNG/egg.png" alt="egg">
+                Add your <br> toppings
+            </div>
+        </div>
+    </section>
+
+    <section class="our-menu">
+        <h2 id="menu">OUR MENU</h2>
+    </section>
+
+</body>
+
+</html>
