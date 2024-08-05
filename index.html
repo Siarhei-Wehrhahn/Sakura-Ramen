@@ -66,11 +66,18 @@
             left: 0;
             right: 0;
             padding: 20px 100px;
-            background: rgba(0, 0, 0, 0.5);
             color: white;
+            z-index: 100;
         }
 
         .menu-header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        .menu-header a:hover {
             color: white;
             text-decoration: none;
             margin: 0 15px;
@@ -99,6 +106,10 @@
             border-style: solid;
             border-width: 2px;
             border-color: white;
+        }
+
+        #phone-btn:hover {
+            background-color: rgb(255, 90, 90);
         }
 
         .order-section {
@@ -213,7 +224,7 @@
             filter: drop-shadow(2px 2px 2px black);
         }
 
-        .footer {
+        #footer {
             padding-left: 160px;
             padding-top: 0px;
             padding-right: 160px;
@@ -291,10 +302,10 @@
             </div>
 
             <div class="menu">
-                <a href="#menu-cart">MENU</a>
-                <a href="#">LOCATIONS</a>
-                <a href="#">ABOUT</a>
-                <a href="tel:017654564534" id="phone-btn">
+                <a class="mla-menu" href="#menu-section">MENU</a>
+                <a class="mla-menu" href="#maps">LOCATIONS</a>
+                <a class="mla-menu" href="#footer">ABOUT</a>
+                <a class="mla-menu" href="tel:017654564534" id="phone-btn">
                     <img class="phone-icon" src="./img/1_hero/PNG/phone.png" alt="phone_icon">017654564534
                 </a>
             </div>
@@ -400,20 +411,20 @@
         </div>
         <iframe id="maps"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2663.2081532576294!2d11.558628376685547!3d48.12550907124219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ddf44d01affc5%3A0xe7a07e0710be63e8!2sKapuzinerstra%C3%9Fe%2031%2C%2080337%20M%C3%BCnchen!5e0!3m2!1sde!2sde!4v1722616184644!5m2!1sde!2sde"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
 
-    <footer class="footer">
+    <footer id="footer">
         <div>
             <img class="logo2-img" src="./img/1_hero/PNG/sakura_logo.png" alt="sakura_logo">
         </div>
         <div class="social-links">
+            <a href="#"><img class="social-link-button" src="img/5_section_footer/PNG/tripadvisor_logo.png" alt="twitter"></a>
             <a href="#"><img class="social-link-button" src="./img/5_section_footer/PNG/facebook_logo.png"
                     alt="facebook"></a>
             <a href="#"><img class="social-link-button" src="./img/5_section_footer/PNG/instagrram_logo.png"
                     alt="instagram"></a>
-            <a href="#"><img class="social-link-button" src="" alt="twitter"></a>
         </div>
     </footer>
 </body>
