@@ -22,10 +22,11 @@
             position: absolute;
             top: 0;
             left: 0;
+            right: 0;
+            bottom: 0;
             width: 100%;
-            height: 100%;
             background-size: cover;
-            background-position: center;
+            background-position: bottom;
         }
 
         #header {
@@ -113,14 +114,16 @@
         }
 
         .order-section {
-            padding: 50px 100px;
+            display: flex;
+            justify-content: center;
             text-align: center;
+            flex-direction: column;
+
         }
 
         .order-section h2 {
             color: #9f0908;
             font-size: 80px;
-            padding-top: 120px;
             padding-bottom: 64px;
         }
 
@@ -143,7 +146,6 @@
         .order-info img {
             width: 128px;
             height: auto;
-            padding-bottom: 16px;
         }
 
         .our-menu {
@@ -155,6 +157,7 @@
             display: flex;
             justify-content: center;
             align-items: start;
+            font-size: 80px;
         }
 
         #menu-section {
@@ -163,7 +166,6 @@
             padding-right: 160px;
             padding-bottom: 120px;
             color: #9f0908;
-            font-size: 80px;
             text-align: center;
         }
 
@@ -178,6 +180,10 @@
             height: auto;
             margin-right: 20px;
             padding-right: 80px;
+        }
+
+        .middle img {
+            padding-left: 80px;
         }
 
         .menu-background {
@@ -218,6 +224,7 @@
             margin-top: 120px;
             margin-left: 0;
             margin-right: 0;
+            margin-bottom: 0;
             font-weight: bold;
             font-size: 80px;
             color: #9f0908;
@@ -259,10 +266,6 @@
             flex-direction: row-reverse;
         }
 
-        .middle img {
-            padding-left: 80px;
-        }
-
         .headline-dishes {
             font-family: "Economica", sans-serif;
             color: black;
@@ -278,7 +281,8 @@
         }
 
         #maps {
-            width: 90%;
+            width: 100%;
+            height: 50vh;
             filter: drop-shadow(2px 2px 2px);
             padding-bottom: 10px;
         }
@@ -411,8 +415,7 @@
         </div>
         <iframe id="maps"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2663.2081532576294!2d11.558628376685547!3d48.12550907124219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ddf44d01affc5%3A0xe7a07e0710be63e8!2sKapuzinerstra%C3%9Fe%2031%2C%2080337%20M%C3%BCnchen!5e0!3m2!1sde!2sde!4v1722616184644!5m2!1sde!2sde"
-            style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
 
     <footer id="footer">
@@ -420,7 +423,8 @@
             <img class="logo2-img" src="./img/1_hero/PNG/sakura_logo.png" alt="sakura_logo">
         </div>
         <div class="social-links">
-            <a href="#"><img class="social-link-button" src="img/5_section_footer/PNG/tripadvisor_logo.png" alt="twitter"></a>
+            <a href="#"><img class="social-link-button" src="img/5_section_footer/PNG/tripadvisor_logo.png"
+                    alt="twitter"></a>
             <a href="#"><img class="social-link-button" src="./img/5_section_footer/PNG/facebook_logo.png"
                     alt="facebook"></a>
             <a href="#"><img class="social-link-button" src="./img/5_section_footer/PNG/instagrram_logo.png"
