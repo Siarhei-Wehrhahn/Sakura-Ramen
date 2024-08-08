@@ -56,8 +56,8 @@ h1 {
 .menu-header a {
     color: white;
     text-decoration: none;
-    margin: 0 1vw;
-    font-size: 1.5vw;
+    margin: 0 15px;
+    font-size: 18px;
 }
 
 .menu-header img {
@@ -256,19 +256,116 @@ h1 {
         height: auto;
     }
 
+    .menu-header a {
+        font-size: 3vw;
+        border-radius: 3px;
+    }
+
+    .sakura-logo {
+        width: 8vw;
+        height: auto;
+    }
+
+    .phone-icon {
+        width: 3vw;
+        height: auto;
+    }
+
+    #header h1 {
+        font-size: 11vw;
+    }
+
     .phone-number {
-        width: 150px;
+        width: 200px;
         height: auto;
         display: flex;
         flex-direction: row;
         align-items: center;
     }
 
+    .text-find-us {
+        filter: none;
+    }
+
+    #map-marker {
+        height: 2vh;
+        width: auto;
+    }
+}
+
+@media(max-width: 320px) {
+    .phone-icon {
+        width: 5vw;
+        height: auto;
+    }
+
+    .middle img {
+        padding-left: 0;
+    }
+
+    .middle {
+        flex-direction: row;
+    }
+
     .menu-cart  {
         flex-direction: column;
     }
 
-    .text-find-us {
-        filter: none;
+    .sakura-logo {
+        width: 13vw;
+        height: auto;
+    }
+
+    #header h1 {
+        font-size: 16vw;
+    }
+
+    .menu-header a {
+        font-size: 6vw;
+        border-radius: 4px;
+    }
+
+    #footer {
+        height: 7vh;
+    }
+
+    .logo2-img {
+        width: 7vw;
+        height: auto;
+    }
+
+    .social-link-button {
+        height: 7vw;
+        width: 7vw;
+        margin-left: 1vw;
+    }
+
+    .order-section h2 {
+        font-size: 10vw;
+    }
+
+    .order-info {
+        flex-direction: column;
+    }
+
+    .order-info img {
+        width: 35vw;
+    }
+
+
+    .order-info div {
+        font-size: 10vw;
+    }
+
+    .our-menu h2 {
+        font-size: 12vw;
+    }
+
+    .headline-dishes {
+        font-size: 9vw;
+    }
+
+    .dish {
+        font-size: 5vw;
     }
 }
