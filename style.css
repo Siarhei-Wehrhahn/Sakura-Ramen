@@ -276,7 +276,7 @@ h1 {
     }
 
     .phone-number {
-        width: 200px;
+        width: 40vw;
         height: auto;
         display: flex;
         flex-direction: row;
@@ -297,6 +297,14 @@ h1 {
     .phone-icon {
         width: 5vw;
         height: auto;
+    }
+
+    .phone-number {
+        width: 60vw;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 
     .middle img {
