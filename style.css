@@ -1,0 +1,274 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+#hero-section {
+    background: url(img/1_hero/JPG/hero_bg.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+#header {
+    color: white;
+    padding-left: 5%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: 1px 1px 0px #000, 2px 2px 0px #000;
+    text-align: center;
+}
+
+h1 {
+    font-size: 8vw;
+    font-weight: bold;
+    margin-bottom: 1vw;
+}
+
+.header-text {
+    font-size: 3vw;
+}
+
+.menu-header {
+    height: 10vh;
+    font-size: 2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1% 5%;
+    color: white;
+    z-index: 100;
+}
+
+.menu-header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1vw;
+    font-size: 1.5vw;
+}
+
+.menu-header img {
+    vertical-align: middle;
+    margin-right: 1vw;
+}
+
+.sakura-logo {
+    width: 5vw;
+    height: 5vw;
+}
+
+.phone-icon {
+    width: 2vw;
+    height: 2vw;
+}
+
+#phone-btn {
+    background-color: red;
+    padding: 0.5vw 1vw;
+    border-radius: 0.5vw;
+    border: 0.2vw solid white;
+}
+
+#phone-btn:hover {
+    background-color: rgb(255, 90, 90);
+}
+
+.order-section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 5% 0;
+}
+
+.order-section h2 {
+    color: #9f0908;
+    font-size: 6vw;
+    padding-bottom: 5%;
+}
+
+.order-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.order-info div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 4vw;
+    font-family: "Economica", sans-serif;
+    font-weight: 1000;
+}
+
+.order-info img {
+    width: 10vw;
+    height: auto;
+}
+
+.our-menu {
+    background-image: url('./img/3_section_our_menu/JPG/section_our_menu_bg.jpg');
+    background-size: cover;
+    padding: 5% 0;
+}
+
+.our-menu h2 {
+    font-size: 6vw;
+    text-align: center;
+}
+
+#menu-section {
+    padding: 5% 10%;
+    color: #9f0908;
+    text-align: center;
+}
+
+.menu-cart {
+    display: flex;
+    align-items: center;
+    margin: 5% 0;
+    flex-wrap: wrap;
+}
+
+.middle {
+    flex-direction: row-reverse;
+}
+
+.middle img {
+    padding-left: 40px;
+}
+
+.menu-cart img {
+    width: 25vw;
+    height: auto;
+    margin-right: 5%;
+}
+
+.headline-dishes {
+    font-family: "Economica", sans-serif;
+    color: black;
+    font-size: 4vw;
+}
+
+.dish {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 2.5vw;
+    color: #675E54;
+    text-align: start;
+}
+
+.find-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 5% 0;
+}
+
+.text-find-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    filter: drop-shadow(1px 1px 1px black);
+    padding-bottom: 5%;
+    font-size: 2vw;
+}
+
+#map-marker {
+    height: 3vh;
+    width: auto;
+}
+
+.google-maps {
+    margin-top: 5%;
+    width: 100%;
+}
+
+#maps {
+    width: 100%;
+    height: 50vh;
+    filter: drop-shadow(2px 2px 2px);
+    padding-bottom: 5px;
+}
+
+.find-us-at-h2 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 6vw;
+    color: #9f0908;
+    filter: drop-shadow(2px 2px 2px black);
+}
+
+#footer {
+    padding: 2% 10%;
+    background-color: #0A141E;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo2-img {
+    width: 5vw;
+    height: 5vw;
+}
+
+.social-links {
+    display: flex;
+}
+
+.social-link-button {
+    height: 4vw;
+    width: 4vw;
+    margin-left: 1vw;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+@media(max-width: 750px) {
+    .website-link {
+        display: none;
+        width: 200vw;
+        height: auto;
+    }
+
+    .phone-number {
+        width: 150px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .menu-cart  {
+        flex-direction: column;
+    }
+
+    .text-find-us {
+        filter: none;
+    }
+}
